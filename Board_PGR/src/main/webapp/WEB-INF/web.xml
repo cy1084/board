@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.min.edu.ctrl.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/loginServlet.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>BoardMainServlet</servlet-name>
+		<servlet-class>com.min.edu.ctrl.BoardMainServlet</servlet-class>
+		
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BoardMainServlet</servlet-name>
+		<url-pattern>/boardMain.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>DetailBoardServlet</servlet-name>
+		<servlet-class>com.min.edu.ctrl.DetailBoardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DetailBoardServlet</servlet-name>
+		<url-pattern>/detailBoard.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>InsertBoard</servlet-name>
+		<servlet-class>com.min.edu.ctrl.InsertBoardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsertBoard</servlet-name>
+		<url-pattern>/insertBoard.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ModifyBoard</servlet-name>
+		<servlet-class>com.min.edu.ctrl.ModifyBoardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ModifyBoard</servlet-name>
+		<url-pattern>/modifyBoard.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>DeleteBoard</servlet-name>
+		<servlet-class>com.min.edu.ctrl.DeleteBoardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteBoard</servlet-name>
+		<url-pattern>/deleteBoard.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.min.edu.ctrl.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/logoutServlet.do</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<!-- user -->
+
+	<servlet>
+		<servlet-name>RegistUser</servlet-name>
+		<servlet-class>com.min.edu.ctrl.RegistUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistUser</servlet-name>
+		<url-pattern>/registUser.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>UserManagement</servlet-name>
+		<servlet-class>com.min.edu.ctrl.UserManagement</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserManagement</servlet-name>
+		<url-pattern>/userManagement.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserDeatil</servlet-name>
+		<servlet-class>com.min.edu.ctrl.UserDeatilServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserDeatil</servlet-name>
+		<url-pattern>/userDeatil.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ApprovalUser</servlet-name>
+		<servlet-class>com.min.edu.ctrl.ApprovalUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ApprovalUser</servlet-name>
+		<url-pattern>/approvalUser.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>RefusalUser</servlet-name>
+		<servlet-class>com.min.edu.ctrl.RefusalUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RefusalUser</servlet-name>
+		<url-pattern>/refusalUser.do</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>DeleteUser</servlet-name>
+		<servlet-class>com.min.edu.ctrl.DeleteUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteUser</servlet-name>
+		<url-pattern>/deleteUser.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Duplicate</servlet-name>
+		<servlet-class>com.min.edu.ctrl.DuplicateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Duplicate</servlet-name>
+		<url-pattern>/duplicate.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetMyBoard</servlet-name>
+		<servlet-class>com.min.edu.ctrl.GetMyBoardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetMyBoard</servlet-name>
+		<url-pattern>/getMyBoard.do</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+
+
+	<filter>
+		<filter-name>Filter</filter-name>
+		<filter-class>com.min.edu.comm.AccessFilter</filter-class>
+			<init-param>
+				<param-name>excludeURL</param-name>
+				<param-value>/loginServlet.do,/registUser.do,/js/user.js,/duplicate.do</param-value>
+			</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>Filter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+</web-app>

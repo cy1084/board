@@ -1,0 +1,22 @@
+2024-06-19 15:13:18 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-19 15:13:18 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-19 15:13:18 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-19 15:13:18 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-19 15:13:18 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-19 15:13:18 INFO  BoardDaoImpl:56 - deleteBoard 게시글 (다중)삭제 전달 값: [1, 2, 3]
+2024-06-19 15:13:18 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-19 15:13:18 DEBUG PooledDataSource:448 - Created connection 2144838275.
+2024-06-19 15:13:18 DEBUG deleteBoard:137 - ==>  Preparing: UPDATE EDUBOARD SET DELFLAG = 'Y' WHERE SEQ IN ( ? , ? , ? )
+2024-06-19 15:13:18 DEBUG deleteBoard:137 - ==> Parameters: 1(Integer), 2(Integer), 3(Integer)
+2024-06-19 15:13:18 DEBUG deleteBoard:137 - <==    Updates: 3
+2024-06-19 15:13:18 INFO  BoardDaoImpl:42 - insertBoard 게시글 등록 전달 값: BoardDto(seq=0, id=user, title=제목, content=내용, delflag=null, createat=null, name=null)
+2024-06-19 15:13:18 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-19 15:13:18 DEBUG PooledDataSource:448 - Created connection 1528769018.
+2024-06-19 15:13:18 DEBUG insertBoard!selectKey:137 - ==>  Preparing: SELECT NVL(MAX(SEQ), 0)+1 FROM EDUBOARD e
+2024-06-19 15:13:18 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-19 15:13:18 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ),0)+1
+2024-06-19 15:13:18 TRACE insertBoard!selectKey:143 - <==        Row: 73
+2024-06-19 15:13:18 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-19 15:13:18 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES ( ? , ?, ?, ?, 'N', SYSDATE)
+2024-06-19 15:13:18 DEBUG insertBoard:137 - ==> Parameters: 73(Integer), user(String), 제목(String), 내용(String)
+2024-06-19 15:13:18 DEBUG insertBoard:137 - <==    Updates: 1

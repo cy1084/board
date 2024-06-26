@@ -1,0 +1,224 @@
+2024-06-18 15:00:53 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:00:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:00:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:00:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:00:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:14:56 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:14:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:14:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:14:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:14:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:14:56 INFO  UserDaoImpl:21 - userLogin 전달받은 값 : {pw=user, id=user}
+2024-06-18 15:14:56 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:14:56 DEBUG PooledDataSource:448 - Created connection 1093864783.
+2024-06-18 15:14:56 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@41330d4f]
+2024-06-18 15:14:56 DEBUG getLogin:137 - ==>  Preparing: SELECT ID ,PASSWORD ,NAME ,PHONE ,ENABLE ,AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'N'
+2024-06-18 15:14:56 DEBUG getLogin:137 - ==> Parameters: user(String), user(String)
+2024-06-18 15:14:56 TRACE getLogin:143 - <==    Columns: ID, PASSWORD, NAME, PHONE, ENABLE, AUTH
+2024-06-18 15:14:56 TRACE getLogin:143 - <==        Row: user, user, user, 01012345678, N, USER
+2024-06-18 15:14:56 DEBUG getLogin:137 - <==      Total: 1
+2024-06-18 15:36:31 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:36:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:36:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:36:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:36:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:36:31 INFO  BoardDaoImpl:21 - countBoard 전체 게시글 개수
+2024-06-18 15:38:19 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:38:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:38:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:38:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:38:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:38:19 INFO  BoardDaoImpl:21 - countBoard 전체 게시글 개수
+2024-06-18 15:40:41 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:40:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:40:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:40:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:40:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:40:41 INFO  BoardDaoImpl:21 - countBoard 전체 게시글 개수
+2024-06-18 15:41:06 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:41:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:41:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:41:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:41:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:41:06 INFO  BoardDaoImpl:21 - countBoard 전체 게시글 개수
+2024-06-18 15:41:22 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:41:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:41:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:41:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:41:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:41:22 INFO  BoardDaoImpl:21 - countBoard 전체 게시글 개수
+2024-06-18 15:42:12 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:42:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:42:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:42:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:42:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:42:12 INFO  BoardDaoImpl:28 - getAllBoard 전체 게시글 조회
+2024-06-18 15:43:14 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:43:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:14 INFO  BoardDaoImpl:28 - getAllBoard 전체 게시글 조회
+2024-06-18 15:43:14 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:43:15 DEBUG PooledDataSource:448 - Created connection 795321555.
+2024-06-18 15:43:15 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2f67a4d3]
+2024-06-18 15:43:15 DEBUG getAllBoard:137 - ==>  Preparing: SELECT SEQ, ID, TITLE, CONTENT, DELFLAG , CREATEAT , NAME FROM EDUBOARD e JOIN EMPINFO USING (ID) WHERE DELFLAG = 'N'
+2024-06-18 15:43:15 DEBUG getAllBoard:137 - ==> Parameters: 
+2024-06-18 15:43:15 TRACE getAllBoard:143 - <==    Columns: SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT, NAME
+2024-06-18 15:43:15 TRACE getAllBoard:143 - <==        Row: 1, user, 제목 1111, 첫번째 게시글 내용 수정함, N, 2024-06-18 14:33:49, user
+2024-06-18 15:43:15 TRACE getAllBoard:143 - <==        Row: 3, user, 333333333333세번째 글 제목, 세번째 글의 내용, N, 2024-06-18 14:34:48, user
+2024-06-18 15:43:15 TRACE getAllBoard:143 - <==        Row: 2, user, 두번째 글, 두번째 글의 내용, N, 2024-06-18 14:34:29, user
+2024-06-18 15:43:15 DEBUG getAllBoard:137 - <==      Total: 3
+2024-06-18 15:43:31 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:43:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:31 INFO  BoardDaoImpl:21 - countBoard 전체 게시글 개수
+2024-06-18 15:43:31 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:43:32 DEBUG PooledDataSource:448 - Created connection 757708014.
+2024-06-18 15:43:32 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2d29b4ee]
+2024-06-18 15:43:32 DEBUG countBoard:137 - ==>  Preparing: SELECT COUNT(*) FROM EDUBOARD
+2024-06-18 15:43:32 DEBUG countBoard:137 - ==> Parameters: 
+2024-06-18 15:43:32 TRACE countBoard:143 - <==    Columns: COUNT(*)
+2024-06-18 15:43:32 TRACE countBoard:143 - <==        Row: 3
+2024-06-18 15:43:32 DEBUG countBoard:137 - <==      Total: 1
+2024-06-18 15:44:47 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:44:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:47 INFO  BoardDaoImpl:35 - getDetailBoard 상세 게시글 조회 전달 값: 1
+2024-06-18 15:44:47 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:44:47 DEBUG PooledDataSource:448 - Created connection 757708014.
+2024-06-18 15:44:47 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2d29b4ee]
+2024-06-18 15:44:47 DEBUG getDetailBoard:137 - ==>  Preparing: SELECT SEQ, ID, TITLE, CONTENT , DELFLAG , CREATEAT , NAME FROM EDUBOARD e JOIN EMPINFO USING (ID) WHERE SEQ = ?
+2024-06-18 15:44:47 DEBUG getDetailBoard:137 - ==> Parameters: 1(Integer)
+2024-06-18 15:44:47 TRACE getDetailBoard:143 - <==    Columns: SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT, NAME
+2024-06-18 15:44:47 TRACE getDetailBoard:143 - <==        Row: 1, user, 제목 1111, 첫번째 게시글 내용 수정함, N, 2024-06-18 14:33:49, user
+2024-06-18 15:44:47 DEBUG getDetailBoard:137 - <==      Total: 1
+2024-06-18 15:47:21 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:47:21 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:47:21 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:47:21 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:47:21 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:47:21 INFO  BoardDaoImpl:42 - insertBoard 게시글 등록 전달 값: {id=user, title=new 제목, content=new 내용}
+2024-06-18 15:47:21 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:47:21 DEBUG PooledDataSource:448 - Created connection 757708014.
+2024-06-18 15:47:21 DEBUG insertBoard!selectKey:137 - ==>  Preparing: (SELECT NVL(MAX(SEQ), 0)+1 FROM EDUBOARD e)
+2024-06-18 15:47:21 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-18 15:47:21 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ),0)+1
+2024-06-18 15:47:21 TRACE insertBoard!selectKey:143 - <==        Row: 4
+2024-06-18 15:47:21 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-18 15:47:21 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES ( ? , ?, ?, ?, 'N', SYSDATE);
+2024-06-18 15:47:21 DEBUG insertBoard:137 - ==> Parameters: 4(Integer), user(String), new 제목(String), new 내용(String)
+2024-06-18 15:47:49 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:47:49 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:47:49 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:47:49 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:47:49 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:47:49 INFO  BoardDaoImpl:42 - insertBoard 게시글 등록 전달 값: {id=user, title=new 제목, content=new 내용}
+2024-06-18 15:47:49 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:47:49 DEBUG PooledDataSource:448 - Created connection 757708014.
+2024-06-18 15:47:49 DEBUG insertBoard!selectKey:137 - ==>  Preparing: SELECT NVL(MAX(SEQ), 0)+1 FROM EDUBOARD e
+2024-06-18 15:47:49 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-18 15:47:50 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ),0)+1
+2024-06-18 15:47:50 TRACE insertBoard!selectKey:143 - <==        Row: 4
+2024-06-18 15:47:50 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-18 15:47:50 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES ( ? , ?, ?, ?, 'N', SYSDATE);
+2024-06-18 15:47:50 DEBUG insertBoard:137 - ==> Parameters: 4(Integer), user(String), new 제목(String), new 내용(String)
+2024-06-18 15:49:06 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:49:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:49:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:49:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:49:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:49:06 INFO  BoardDaoImpl:42 - insertBoard 게시글 등록 전달 값: {id=user, title=new 제목, content=new 내용}
+2024-06-18 15:49:06 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:49:06 DEBUG PooledDataSource:448 - Created connection 757708014.
+2024-06-18 15:49:06 DEBUG insertBoard!selectKey:137 - ==>  Preparing: SELECT NVL(MAX(SEQ), 0)+1 FROM EDUBOARD e
+2024-06-18 15:49:06 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-18 15:49:06 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ),0)+1
+2024-06-18 15:49:06 TRACE insertBoard!selectKey:143 - <==        Row: 4
+2024-06-18 15:49:06 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-18 15:49:06 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES ( (?) , ?, ?, ?, 'N', SYSDATE);
+2024-06-18 15:49:06 DEBUG insertBoard:137 - ==> Parameters: 4(Integer), user(String), new 제목(String), new 내용(String)
+2024-06-18 15:50:35 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:50:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:50:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:50:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:50:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:50:35 INFO  BoardDaoImpl:42 - insertBoard 게시글 등록 전달 값: {id=user, title=new 제목, content=new 내용}
+2024-06-18 15:50:35 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:50:35 DEBUG PooledDataSource:448 - Created connection 757708014.
+2024-06-18 15:50:35 DEBUG insertBoard!selectKey:137 - ==>  Preparing: (SELECT NVL(MAX(SEQ), 0)+1 FROM EDUBOARD e)
+2024-06-18 15:50:35 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-18 15:50:35 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ),0)+1
+2024-06-18 15:50:35 TRACE insertBoard!selectKey:143 - <==        Row: 5
+2024-06-18 15:50:35 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-18 15:50:35 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES ( ? , ?, ?, ?, 'N', SYSDATE);
+2024-06-18 15:50:35 DEBUG insertBoard:137 - ==> Parameters: 5(Integer), user(String), new 제목(String), new 내용(String)
+2024-06-18 15:51:14 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:51:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:51:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:51:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:51:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:51:14 INFO  BoardDaoImpl:42 - insertBoard 게시글 등록 전달 값: {id=user, title=new 제목, content=new 내용}
+2024-06-18 15:51:14 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:51:14 DEBUG PooledDataSource:448 - Created connection 757708014.
+2024-06-18 15:51:14 DEBUG insertBoard!selectKey:137 - ==>  Preparing: SELECT NVL(MAX(SEQ), 0)+1 FROM EDUBOARD e
+2024-06-18 15:51:14 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-18 15:51:14 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ),0)+1
+2024-06-18 15:51:14 TRACE insertBoard!selectKey:143 - <==        Row: 5
+2024-06-18 15:51:14 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-18 15:51:14 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES ( ? , ?, ?, ?, 'N', SYSDATE)
+2024-06-18 15:51:14 DEBUG insertBoard:137 - ==> Parameters: 5(Integer), user(String), new 제목(String), new 내용(String)
+2024-06-18 15:51:14 DEBUG insertBoard:137 - <==    Updates: 1
+2024-06-18 15:52:04 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:52:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:52:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:52:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:52:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:52:04 INFO  BoardDaoImpl:42 - insertBoard 게시글 등록 전달 값: {id=user, title=111111111111111111111, content=11111111111111111111}
+2024-06-18 15:52:04 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:52:04 DEBUG PooledDataSource:448 - Created connection 757708014.
+2024-06-18 15:52:04 DEBUG insertBoard!selectKey:137 - ==>  Preparing: SELECT NVL(MAX(SEQ), 0)+1 FROM EDUBOARD e
+2024-06-18 15:52:04 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-18 15:52:05 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ),0)+1
+2024-06-18 15:52:05 TRACE insertBoard!selectKey:143 - <==        Row: 6
+2024-06-18 15:52:05 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-18 15:52:05 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES ( ? , ?, ?, ?, 'N', SYSDATE)
+2024-06-18 15:52:05 DEBUG insertBoard:137 - ==> Parameters: 6(Integer), user(String), 111111111111111111111(String), 11111111111111111111(String)
+2024-06-18 15:52:05 DEBUG insertBoard:137 - <==    Updates: 1
+2024-06-18 15:53:58 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:53:58 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:53:58 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:53:58 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:53:58 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:53:58 INFO  BoardDaoImpl:49 - modifyBoard 게시글 수정 전달 값: {content=수정된 내용, seq=1}
+2024-06-18 15:53:58 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:53:59 DEBUG PooledDataSource:448 - Created connection 1179792105.
+2024-06-18 15:53:59 DEBUG modifyBoard:137 - ==>  Preparing: UPDATE EDUBOARD SET CONTENT = ? WHERE SEQ = ?
+2024-06-18 15:53:59 DEBUG modifyBoard:137 - ==> Parameters: 수정된 내용(String), 1(Integer)
+2024-06-18 15:53:59 DEBUG modifyBoard:137 - <==    Updates: 1
+2024-06-18 16:01:13 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 16:01:13 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 16:01:13 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 16:01:13 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 16:01:13 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 16:01:13 INFO  BoardDaoImpl:56 - deleteBoard 게시글 (다중)삭제 전달 값: [1, 2, 3]
+2024-06-18 16:01:13 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 16:01:14 DEBUG PooledDataSource:448 - Created connection 2059572982.
+2024-06-18 16:01:14 DEBUG deleteBoard:137 - ==>  Preparing: UPDATE EDUBOARD SET DELFLAG = 'Y' WHERE SEQ IN ( ? , ? , ? )
+2024-06-18 16:01:14 DEBUG deleteBoard:137 - ==> Parameters: 1(Integer), 2(Integer), 3(Integer)
+2024-06-18 16:01:14 DEBUG deleteBoard:137 - <==    Updates: 3
+2024-06-18 16:02:22 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 16:02:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 16:02:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 16:02:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 16:02:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 16:02:22 INFO  BoardDaoImpl:56 - deleteBoard 게시글 (다중)삭제 전달 값: [1, 2, 3]
+2024-06-18 16:02:22 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 16:02:22 DEBUG PooledDataSource:448 - Created connection 2059572982.
+2024-06-18 16:02:22 DEBUG deleteBoard:137 - ==>  Preparing: UPDATE EDUBOARD SET DELFLAG = 'Y' WHERE SEQ IN ( ? , ? , ? )
+2024-06-18 16:02:23 DEBUG deleteBoard:137 - ==> Parameters: 1(Integer), 2(Integer), 3(Integer)
+2024-06-18 16:02:23 DEBUG deleteBoard:137 - <==    Updates: 3
